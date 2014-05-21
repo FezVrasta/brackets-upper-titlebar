@@ -4,6 +4,7 @@
     margin-left: -231px;
     padding: 4px 8px 0px 8px;
     height: 20px;
+    border-bottom: 0;
 }
 
 #titlebar, #titlebar .dropdown-toggle {
@@ -33,7 +34,7 @@
 }
 
 #sidebar {
-    padding-top: 25px;
+    padding-top: 24px;
 }
 
 #titlebar .dropdown-menu {
