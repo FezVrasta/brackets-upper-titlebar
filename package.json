@@ -1,0 +1,12 @@
+{
+    "name": "fezvrasta.brackets-upper-titlebar",
+    "title": "Brackets Upper Titlebar",
+    "description": "Move the titlebar on Brackets for Linux on top of the window.",
+    "homepage": "https://github.com/FezVrasta/brackets-upper-titlebar",
+    "version": "1.0.0",
+    "author": "Fez Vrasta <info@mywebexpression.com> (http://www.mywebexpression.com)",
+    "license": "MIT",
+    "engines": {
+        "brackets": ">=0.24.0"
+    }
+}
