@@ -11,7 +11,7 @@
 }
 
 #titlebar .nav {
-    margin: -6px 0 -5px -5px
+    /*margin: -6px 0 -5px -5px*/
 }
 
 #titlebar .dropdown-toggle:hover, #titlebar .dropdown.open .dropdown-toggle {
