@@ -25,10 +25,16 @@ define(function (require, exports, module) {
     // Update titlebar position on resize of sidebar
     $sidebar
     .on("show", function() {
-        $titlebar.css("margin-left", $sidebar.width() * -1);
+        if ($sidebar.is(":visible")) {
+            $titlebar.css("margin-left", $sidebar.width() * -1);
+        }
     })
     .on("hide", function() {
-        $titlebar.css("margin-left", 0);
+        window.setTimeout(function() {
+            if (!$sidebar.is(":visible")) {
+                $titlebar.css("margin-left", 0);
+            }
+        }, 200);
     })
     .find(".horz-resizer")
     .mousedown(function() {
