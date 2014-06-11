@@ -3,10 +3,18 @@
     box-shadow: none;
     height: 20px;
     border-bottom: 0;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
 }
 
 #titlebar, #titlebar .dropdown-toggle {
     color: #FFFFFF;
+}
+
+#editor-holder {
+    padding-top: 27px;
 }
 
 
