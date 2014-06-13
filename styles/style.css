@@ -43,3 +43,7 @@
 #titlebar .dropdown-menu {
     margin-top: -7px;
 }
+
+.modal-bar {
+    top: 27px;
+}
